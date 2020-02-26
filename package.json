@@ -4,12 +4,12 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "npm run clean && npx tsc",
+    "build": "npm run clean && tsc",
     "test": "jest",
     "clean": "rm -rf './dist'",
-    "dev": "npx nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
-    "format": "npx prettier --write './src/**/*.{ts,tsx,js,jsx}'",
-    "format:check": "npx prettier --check './src/**/*.{ts,tsx,js,jsx}'"
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "format": "prettier --write './src/**/*.{ts,tsx,js,jsx}'",
+    "format:check": "prettier --check './src/**/*.{ts,tsx,js,jsx}'"
   },
   "files": [
     "/dist"
@@ -37,7 +37,6 @@
     "eslint": "^6.8.0",
     "jest": "^24.9.0",
     "nodemon": "^1.19.1",
-    "npx": "^10.2.2",
     "prettier": "^1.19.1",
     "sinon": "^7.5.0",
     "ts-jest": "^24.0.2",
