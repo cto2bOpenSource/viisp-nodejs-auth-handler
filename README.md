@@ -5,6 +5,8 @@ VIISP - "Valstybės Informacinių Išteklių Sąveikumo Platforma"
 
 ## Usage
 
+yarn add viisp-nodejs-auth-handler
+
 ```
 
 import { ViispAuthClient } from 'viisp-nodejs-auth-handler';
