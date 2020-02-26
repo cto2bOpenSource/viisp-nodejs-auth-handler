@@ -1,6 +1,6 @@
 {
   "name": "viisp-nodejs-auth-handler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "author": "Valdas Mazrimas <valdas.mazrimas@gmail.com>",
@@ -16,7 +16,10 @@
   "files": [
     "/dist"
   ],
-  "keywords": ["viisp", "ltauth"],
+  "keywords": [
+    "viisp",
+    "ltauth"
+  ],
   "license": "MIT",
   "dependencies": {
     "@types/xmldom": "^0.1.29",
