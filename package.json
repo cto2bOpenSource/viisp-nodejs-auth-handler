@@ -3,6 +3,8 @@
   "version": "1.0.2",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "author": "Valdas Mazrimas <valdas.mazrimas@gmail.com>",
+  "homepage": "https://github.com/cto2bOpenSource/viisp-nodejs-auth-handler",
   "scripts": {
     "build": "npm run clean && tsc",
     "test": "jest",
@@ -14,7 +16,7 @@
   "files": [
     "/dist"
   ],
-  "keywords": [],
+  "keywords": ["viisp", "ltauth"],
   "license": "MIT",
   "dependencies": {
     "@types/xmldom": "^0.1.29",
