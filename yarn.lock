@@ -4642,6 +4642,14 @@ xml-crypto@^1.4.0:
     xmldom "0.1.27"
     xpath "0.0.27"
 
+xml-crypto@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/xml-crypto/-/xml-crypto-2.0.0.tgz#54cd268ad9d31930afcf7092cbb664258ca9e826"
+  integrity sha512-/a04qr7RpONRZHOxROZ6iIHItdsQQjN3sj8lJkYDDss8tAkEaAs0VrFjb3tlhmS5snQru5lTs9/5ISSMdPDHlg==
+  dependencies:
+    xmldom "0.1.27"
+    xpath "0.0.27"
+
 xml-name-validator@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
